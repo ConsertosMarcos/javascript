@@ -93,3 +93,4 @@ COMANDO PARA SINCRONIZAR MODIFICAÇOES PARA ENVIAR PARA O github
 - git status 
 - git add . (add todas as alteraçoes)  (ou colocar o nome do arquivo em vez do ponto para add so o arquivo que vc quer)
 - git commit -m "fundamentos"
+- git push (envia os arquivos para o repositorio)
