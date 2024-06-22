@@ -1,0 +1,95 @@
+Boa Praticas na Programação:
+
+1) Documetação
+/**
+* descrição do codigo(ou de algum comentario importante)
+* @nome do dono do projeto/codigo.
+* @link para mais informações do projeto
+*/
+
+2) Codigo limpo:
+    - nao abusar dos comentarios
+
+3) Nomeação:
+    - nao usar caracteres especiais ({espaço, acento entre outros} {para nao dificultar nos comandos})
+    - Iniciar com caixa alta (Letras Maiusculas) apenas em classes modelos.
+    - Definir nomes que tenha relaçao com o arquivo/problema 
+
+4) Alinhamento de codigo (identaçao do codigo)
+
+5) Quanto menos codigo usado melhor para nao ter tantos problemas.
+
+---------------------------------------------------------
+
+comandos do terminal:
+
+cls ou clear (limpar tela do terminal)
+node -v (exibe a versão node)
+cd pasta ( entrar na pasta)
+cd .. (voltar um nivel)
+dir ou ls (listar arquivos e diretórios)
+node arquivos.js (execultar um arquivos JavaScript)
+<tecla(TAB)> (Completa a Maioria dos comandos)
+
+---------------------------------------------------------
+
+VSCode (dicas):
+Combinação de teclas <alt><sift><f> alinhamento do comando 
+
+---------------------------------------------------------
+
+JavaScript:
+
+Caracteristicas:
+- Ele trabalha normalmente com sentenças  e nao linhas de codigo
+- é opicional (nao importa se vc vai colocar nao)
+ consol.clear() //seria limpar o console
+ console.log() // escrever no console
+ (//) a maoria das linguagens seria comentario.
+ nao posso ultilozar aspas diferentes nos comandos, ou seria aspas simples ou aspas duplas.
+ normalmente soa ultilizadas as (") em textos. 
+    ou usar em bibliotecas ou caminhos (')
+
+---------------------------------------------------------
+
+Operadores:
+
+Observaçoes:
+    - regra da precendencia
+    - % (nao calcula % e sim o resto da divisão)
+        Ex :
+        10/3
+    10/3= //3.33
+    10%3 //resutado 1
+    
+Comparadores de Igualdade:
+NÃO USAR == !=
+
+Operadores logicos:
+Dica:
+
+---------------------------------------------------------
+
+Estudo das Variaveis:
+    -String (caracteres) 
+    -Numerica (numeros)
+    -booleanas (verdadeiro ou falso)
+
+Observaçao:
+  As Variaveis no JS são dinamicamente tipadas
+  const (criar uma costante)
+  var ou let (criar uma variaval)
+  var (NAO USAR JAMAIS)
+  
+
+  como clonar e sincronizar o github 
+
+- baixar git
+- colocar 3 comandos abaixo para sincronizar e clonar
+- git config --global user.name "meu nome"
+- git config --global user.email "meu email"
+- git clone "link do repositorio"
+COMANDO PARA SINCRONIZAR MODIFICAÇOES PARA ENVIAR PARA O github
+- git status 
+- git add . (add todas as alteraçoes)  (ou colocar o nome do arquivo em vez do ponto para add so o arquivo que vc quer)
+- git commit -m "fundamentos"
