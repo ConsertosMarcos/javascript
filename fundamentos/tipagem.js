@@ -16,3 +16,5 @@ let peso = 70
 let altura = 1.72
 console.log(typeof(peso))
 console.log(typeof(altura))
+console.log(Number.isInteger(peso))
+console.log(Number.isInteger(altura))
