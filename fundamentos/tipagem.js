@@ -31,3 +31,6 @@ console.log(0.1 + 0.2)
 console.log("booleanos________________")
 let sw = true
 console.log(typeof(sw))
+let lampada = false
+console.log(typeof(lampada))
+console.log(`sw: ${sw} lampada: ${lampada}`)
