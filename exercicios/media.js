@@ -19,4 +19,7 @@ nota1 = Number(imput.question("digite a nota1: "))
 //console.log (nota1)
 nota2 =Number(imput.question("digite a nota2: ")) 
 //ConstantSourceNode.log (nota2)
-media 
+//processamento
+media = (nota1, nota2) / 2
+//saida
+console.log (`Média: ${media.toFixed(1)}`)
