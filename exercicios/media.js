@@ -14,12 +14,13 @@ console.clear()
 console.log ("Calculo da Media")
 //captura da nota pelo pacote readline-sync
 
-//entrada
+//entrada:
 nota1 = Number(imput.question("digite a nota1: ")) 
 //console.log (nota1)
 nota2 =Number(imput.question("digite a nota2: ")) 
-//ConstantSourceNode.log (nota2)
-//processamento
+//console.log (nota2)
+
+//processamento:
 media = (nota1, nota2) / 2
 //saida
 console.log (`Média: ${media.toFixed(1)}`)
