@@ -9,7 +9,7 @@ const imput = require('readline-sync')
 //variaveis
 let m2, tijolos
 
-console.log()
+console.clear()
 console.log("calculo de tijolos baiano por metro quadrado")
 
 //entrada
