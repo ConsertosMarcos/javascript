@@ -1,0 +1,19 @@
+/**
+ * Calculo da quantidade de tijolos maciço por metro quadrado
+ * @author Marcos Ryan
+ * @link https://www.youtube.com/channel/UCiVuxdmrUV0yysFFzuHoOYg
+ */
+
+const imput = require('readline-sync')
+
+//variaveis
+let m2, tijolos
+
+console.clear()
+console.log("calculo de tijolos maciço por metro quadrado")
+
+//entrada
+m2 = Number(imput.question("quantos metros voce precisa?"))
+
+tijolos = m2 * 80
+console.log(`voce precisara de ${tijolos} tijolos maciço`)
