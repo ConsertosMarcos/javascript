@@ -12,7 +12,7 @@ const input = require('readline-sync')
 let Gasolina, Etanol
  
 console.clear ()
-console.log (Etanol ou Gasolina)
+console.log ("Etanol ou Gasolina?".red)
 
 //entrada
 Etanol = Number(input.question("Digite o valor do Etanol"))
