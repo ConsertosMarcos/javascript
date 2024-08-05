@@ -12,3 +12,5 @@ if (media < 5)
     console.log("Reprovado")
  else 
     console.log("Aprovado")
+
+//Dica: sempre usar chaves nas etruturas if if-else
