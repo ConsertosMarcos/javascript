@@ -94,3 +94,11 @@ COMANDO PARA SINCRONIZAR MODIFICAÇOES PARA ENVIAR PARA O github
 - git add . (add todas as alteraçoes)  (ou colocar o nome do arquivo em vez do ponto para add so o arquivo que vc quer)
 - git commit -m "fundamentos"
 - git push (envia os arquivos para o repositorio)
+
+
+Exercicio 3:
+No Brasil, o voto pode ser proibido, obrigaorio ou facultativo, de acordo com os 
+seguintes critérios:
+idade menor que 16 (Proibido de voltar)
+idade entre 18 e 70 (incluindo 18 e 70) (voto obrigatorio)
+16,17 ou acima de 70 (voto é opicional)
