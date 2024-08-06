@@ -17,9 +17,7 @@ console.log ("Calculo da Media")
 
 //entrada:
 nota1 = Number(imput.question("digite a nota1:")) 
-//console.log (nota1)
 nota2 =Number(imput.question("digite a nota2:")) 
-//console.log (nota2)
 
 //processamento:
 media = (nota1, nota2) / 2
