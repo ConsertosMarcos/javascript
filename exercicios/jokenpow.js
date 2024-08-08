@@ -21,7 +21,7 @@ console.log("/\\__/ /\\ \\_/ / |\\  \\| |___| |\\  || |   \\ \\_/ /\\  /\\  /")
 console.log("\\____/  \\___/\\_| \\_/\\____/\\_| \\_/\\_|    \\___/  \\/  \\/ ")
 
 //processamento do jogador
-console.log("1. Pedra")
+console.log(`p1`)
 console.log("2. Papel")
 console.log("3. Tesoura")
 input.question("Digite a opcao desejada: ")
