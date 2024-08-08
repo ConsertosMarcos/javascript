@@ -9,7 +9,7 @@ const input = require('readline-sync')
 const colors = require('colors')
 
 //Variaveis
-let pedra, papel, tesoura, resultado1, resultado2
+let resultado1, resultado2
 
 //Console
 console.clear()
