@@ -27,14 +27,6 @@ console.log("3. Tesoura")
 input.question("Digite a opcao desejada: ")
 console.log("______________________________________")
 
-if (pedra = 1) {
-    console.log("Jogador escolheu Pedra")
-} else if (papel == 2) {
-    console.log * ("Papel")
-}
-
-
-
 
 //Processamento aleatorio do computador
 resultado = Math.floor(Math.random() * 3 + 1)
