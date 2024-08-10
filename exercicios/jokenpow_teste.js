@@ -36,6 +36,9 @@ switch (resultado1) {
         break
     case 3:
         console.log("Jogador escolheu Tesoura".cyan)
+        break
+    default:
+        console.log("Numero Invalido".cyan)
 }
 
 //entrada Computador
@@ -53,7 +56,7 @@ switch (resultado2) {
 }
 
 if (resultado1 === resultado2) {
-    console.log("Empate".yellowellow)
+    console.log("Empate".yellow)
 } else if (resultado1 === 1 && resultado2 === 3 || (resultado1 === 2 && resultado2 === 1 || (resultado1 === 3 && resultado2 === 2))) {
     console.log("🧑Jogador Ganhou🧑".green)
 } else {
