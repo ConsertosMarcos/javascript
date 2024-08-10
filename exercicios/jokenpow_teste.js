@@ -43,15 +43,15 @@ switch (resultado1) {
 
 //entrada Computador
 
-resultado2 = Math.floor(Math.random() * 3 + 1)
+resultado2 = Math.floor(Math.random() * 3)
 switch (resultado2) {
-    case 1:
+    case 0:
         console.log("Computador escolheu Pedra".red)
         break
-    case 2:
+    case 1:
         console.log("Computador escolheu Papel".red)
         break
-    case 3:
+    case 2:
         console.log("Computador escolheu Tesoura".red)
 }
 
