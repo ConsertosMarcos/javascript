@@ -53,9 +53,9 @@ switch (resultado2) {
 }
 
 if (resultado1 === resultado2) {
-    console.log("Empate".bgYellow)
+    console.log("Empate".yellowellow)
 } else if (resultado1 === 1 && resultado2 === 3 || (resultado1 === 2 && resultado2 === 1 || (resultado1 === 3 && resultado2 === 2))) {
-    console.log("Jogador Ganhou".bgGreen)
+    console.log("🧑Jogador Ganhou🧑".green)
 } else {
-    console.log("Computador Ganhou".bgGreen)
+    console.log("💻Computador Ganhou💻".green)
 }
