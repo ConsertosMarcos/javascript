@@ -19,8 +19,9 @@ input.question("Pressione a tecla [ENTER] para jogar o DADO: ")
 //floor(conversao para numeros inteiros)
 //gandom() * 6 (gerador de numeros aleatorios 0 1 2 3 4 5)
 face = Math.floor(Math.random() * 6 + 1)
-
 console.log(`Face do dado: ${face}`.blue)
+
+//Sida
 switch (face) {
     case 1:
         console.log("⚀")
