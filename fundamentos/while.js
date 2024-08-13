@@ -1,6 +1,7 @@
 /**
  * Estudo das estruturas while e do-while
- * @author Emmanuel L. Nogueira
+ * @author Marcos Ryan
+ * @link https://www.youtube.com/channel/UCiVuxdmrUV0yysFFzuHoOYg
  */
 
 console.clear();
