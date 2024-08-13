@@ -39,15 +39,15 @@ do {
         default:
             console.log("Numero Invalido".cyan)
     }
-    resultado2 = Math.floor(Math.random() * 3)
+    resultado2 = Math.floor(Math.random() * 3 + 1)
     switch (resultado2) {
-        case 0:
+        case 1:
             console.log("Computador escolheu Pedra".red)
             break
-        case 1:
+        case 2:
             console.log("Computador escolheu Papel".red)
             break
-        case 2:
+        case 3:
             console.log("Computador escolheu Tesoura".red)
     }
 
