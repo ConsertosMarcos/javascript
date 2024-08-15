@@ -11,17 +11,17 @@ const colors = require('colors')
 //Variaveis
 let resultado1, resultado2, confirma
 
-//Console
-console.clear()
-console.log("   ___  _____ _   __ _____ _   _ ______ _____  _    _ ".blue.bold)
-console.log("  |_  ||  _  | | / /|  ___| \\ | || ___ \\  _  || |  | |".blue.bold)
-console.log("    | || | | | |/ / | |__ |  \\| || |_/ / | | || |  | |".blue.bold)
-console.log("    | || | | |    \\ |  __|| . ` ||  __/| | | || |/\\| |".blue.bold)
-console.log("/\\__/ /\\ \\_/ / |\\  \\| |___| |\\  || |   \\ \\_/ /\\  /\\  /".blue.bold)
-console.log("\\____/  \\___/\\_| \\_/\\____/\\_| \\_/\\_|    \\___/  \\/  \\/ ".blue.bold)
-
-
 do {
+//Console
+    console.clear()
+    console.log("   ___  _____ _   __ _____ _   _ ______ _____  _    _ ".blue.bold)
+    console.log("  |_  ||  _  | | / /|  ___| \\ | || ___ \\  _  || |  | |".blue.bold)
+    console.log("    | || | | | |/ / | |__ |  \\| || |_/ / | | || |  | |".blue.bold)
+    console.log("    | || | | |    \\ |  __|| . ` ||  __/| | | || |/\\| |".blue.bold)
+    console.log("/\\__/ /\\ \\_/ / |\\  \\| |___| |\\  || |   \\ \\_/ /\\  /\\  /".blue.bold)
+    console.log("\\____/  \\___/\\_| \\_/\\____/\\_| \\_/\\_|    \\___/  \\/  \\/ ".blue.bold)
+
+    //entrada
     console.log("1. Pedra")
     console.log("2. Papel")
     console.log("3. Tesoura")
