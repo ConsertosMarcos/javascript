@@ -12,11 +12,11 @@ const colors = require('colors')
 let num1, num2, operacao
 
 //variavel funcao
-let somarAFS = (num1, num2) => console.log(`${num1} + ${num2} = ${num1 + num2}`)
-let SubtrairAFS = (num1, num2) => console.log(`${num1} - ${num2} = ${num1 - num2}`)
-let MultiplicarAFS = (num1, num2) => console.log(`${num1} x ${num2} = ${num1 * num2}`)
-let DividirAFS = (num1, num2) => console.log(`${num1} / ${num2} = ${num1 / num2}`)
-let PorcentagemAFS = (num1, num2) => console.log(`${num1} % ${num2} = ${(num1 * num2) / 100}`)
+let somar = (num1, num2) => console.log(`${num1} + ${num2} = ${num1 + num2}`)
+let Subtrair = (num1, num2) => console.log(`${num1} - ${num2} = ${num1 - num2}`)
+let Multiplicar = (num1, num2) => console.log(`${num1} x ${num2} = ${num1 * num2}`)
+let Dividir = (num1, num2) => console.log(`${num1} / ${num2} = ${num1 / num2}`)
+let Porcentagem = (num1, num2) => console.log(`${num1} % ${num2} = ${(num1 * num2) / 100}`)
 
 do {
     console.clear()
@@ -29,31 +29,30 @@ do {
 
     //entrada
     num1 = Number(input.question('Digite o primeiro numero: '))
+    console.log("1. ➕")
+    console.log("2. ➖")
+    console.log("3. ✖️")
+    console.log("4. ➗")
+    console.log("5. %")
+    operacao = Number(input.question("Digite a opcao desejada: "))
     num2 = Number(input.question('Digite o segundo numero: '))
     console.log("")
-    console.log("1. Somar")
-    console.log("2. Subtrair")
-    console.log("3. Multiplicar")
-    console.log("4. Dividir")
-    console.log("5. Calcular porcentagem")
-    operacao = Number(input.question("Digite a opcao desejada: "))
-
-
+    
     switch (operacao) {
         case 1:
-            somarAFS(num1, num2)
+            somar(num1, num2)
             break
         case 2:
-            SubtrairAFS(num1, num2)
+            Subtrair(num1, num2)
             break
         case 3:
-            MultiplicarAFS(num1, num2)
+            Multiplicar(num1, num2)
             break
         case 4:
-            DividirAFS(num1, num2)
+            Dividir(num1, num2)
             break
         case 5:
-            PorcentagemAFS(num1, num2)
+            Porcentagem(num1, num2)
             break
     }
     confirma = input.question("Deseja Calcular Novamente(s/n): ")
