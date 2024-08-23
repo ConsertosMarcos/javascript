@@ -1,0 +1,26 @@
+/**
+ * Jogo de dados
+ * Exemplo de uso de array
+ * @author Marcos Ryan
+ * @link https://www.youtube.com/channel/UCiVuxdmrUV0yysFFzuHoOYg
+ */
+
+const input = require('readline-sync')
+console.clear()
+console.log("Sorteio de uma carta")
+input.question("Pressione a tecla[ENTER] para sortear uma carta: ")
+//           [0]  [1]  [2]  [3]
+let nipes = ["♥", "♠", "♦", "♣",]
+//           [0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]  [9]  [10] [11]  [12]
+let faces = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
+
+//apoio a logica
+//az de ouros
+//console.log(`${faces[9]}${nipes[2]}`)
+//Dama de copas
+//console.log(`${faces[11]}${nipes[0]}`)
+
+//logica para sorteio de uma carta
+let nipe = nipes[Math.floor(Math.random() * 4)]
+let face = faces[Math.floor(Math.random() * 13)]
+console.log(`${face}${nipe}`)
