@@ -7,6 +7,7 @@
 //importar a biblioteca
 const imput = require('readline-sync')
 
+
 //variaveis
 let altura, largura, comprimento, litros
 
@@ -23,3 +24,5 @@ litros = (comprimento * largura * altura) / 1000
 
 //saida
 console.log(`No aquario cabem ${litros.toFixed(1)} litros`)
+
+///console.log(typeof(imput))
