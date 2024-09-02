@@ -1,0 +1,17 @@
+/*Folha de estilo do carrossel de imagens
+@author Marcos Almeida
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1080PX;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
