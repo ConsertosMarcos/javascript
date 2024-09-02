@@ -16,7 +16,7 @@ img {
     max-width: 100%;
 }
 
-/*Efeito fade*/
+/*Efeito fade controlado pelo JS*/
 #slide.fadeOut {
     opacity: 0.1;
     /*trasparencia 0 a 1*/
