@@ -15,3 +15,14 @@
 img {
     max-width: 100%;
 }
+
+/*Efeito fade*/
+#slide.fadeOut {
+    opacity: 0.1;
+    /*trasparencia 0 a 1*/
+}
+
+#slide {
+    transition: opacity 2s;
+    opacity: 1;
+}
