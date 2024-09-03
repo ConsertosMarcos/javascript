@@ -15,4 +15,10 @@ function calcular() {
     media = (nota1 + nota2) / 2
     //saida
     frmMedia.txtMedia.value = media.toFixed(1)
+    //status
+    if (media < 5) {
+        frmMedia.txtStatus.value = "REPROVADO"
+    } else {
+        frmMedia.txtStatus.value = "APROVADO"
+    }
 }
