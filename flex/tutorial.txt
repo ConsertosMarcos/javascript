@@ -1,0 +1,9 @@
+PWA - Progressive Web App
+
+-JS para criar apicativos
+
+Pre requisitos:
+1) icone de 512 x 512(png)
+2) Criar um arquivo de manifesto (instalar o app)
+3) Criar o service worker (off-line cache)
+4) Obrigatorio o uso de SSL (hhtps)
