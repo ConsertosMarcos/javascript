@@ -7,7 +7,7 @@
 //array simples
 //             [0]             [1]         [2]         [3]
 let times = ["Corinthians", "São Paulo", "Santos", "Palmeiras"]
-//console.log(typeof (times))
+console.log(typeof (times))
 console.log(times)
 console.table(times)
 console.log(times[0])
